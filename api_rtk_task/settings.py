@@ -104,6 +104,8 @@ DATABASES = {
     }
 }
 
+import django_heroku
+django_heroku.settings(locals())
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

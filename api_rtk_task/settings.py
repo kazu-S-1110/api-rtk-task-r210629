@@ -26,7 +26,8 @@ SECRET_KEY = '#vi=3je&3=q*yv0%ajjq-v&58uv(kd0^afkdy24jm*(#n93i^e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "api-rtk-task-r210629.herokuapp.com", "localhost:3000"]
+ALLOWED_HOSTS = ["127.0.0.1", "api-rtk-task-r210629.herokuapp.com", "localhost:3000",
+                 "rtk-hooks-tasks-210627.vercel.app/"]
 
 # Application definition
 
@@ -105,6 +106,7 @@ DATABASES = {
 }
 
 import django_heroku
+
 django_heroku.settings(locals())
 
 # Password validation

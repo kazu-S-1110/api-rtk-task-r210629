@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'api_rtk_task.urls'
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
+    "http://localhost:3000", "https://rtk-hooks-tasks-210627.vercel.app/"
 ]
 
 REST_FRAMEWORK = {
